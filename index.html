@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Toyota Corolla Axio — KSh 890,000 · Collo’s Yard</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=DM+Sans:wght@400;500;700&display=swap">
+<style>
+:root{--bg:#14171a;--bg2:#1e2327;--ink:#f1f3f4;--mut:#99a3ab;--line:#303840;--red:#ff4a3d;color-scheme:dark;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:light){:root{--bg:#eef0f1;--bg2:#dfe3e6;--ink:#14171a;--mut:#56616a;--line:#c3cad0;--red:#c92a1f;color-scheme:light}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',system-ui,sans-serif;line-height:1.55;overflow-x:hidden}
+h1,h2,h3{font-family:'Bricolage Grotesque',system-ui,sans-serif;font-weight:800;margin:0;line-height:.95;letter-spacing:-.02em}
+h2{font-size:clamp(2.2rem,7vw,4.2rem)}
+button{font:inherit;color:inherit;cursor:pointer}a{color:inherit}
+:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.hero{position:relative;min-height:100svh;display:grid;align-items:end;overflow:hidden;color:#f1f3f4}
+.hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 55%;transform:scale(1.15);animation:settle 2.4s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes settle{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(#14171c66,#14171c00 30%,#14171cf2 100%)}
+.hin{position:relative;z-index:2;padding:0 18px 7vh;max-width:1100px;margin:auto;width:100%}
+.hin h1{font-size:clamp(4.2rem,22vw,11rem);color:#fff}
+.hin h1 em{font-style:normal;color:var(--red)}
+.price{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(2.2rem,9vw,3.8rem);margin:14px 0 4px}
+.price small{display:block;font-family:'DM Sans';font-weight:500;font-size:1rem;color:#cfd5da}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:16px}
+.btn{border:0;border-radius:99px;padding:14px 26px;font-weight:700;background:var(--red);color:#fff;text-decoration:none;display:inline-block;transition:transform .15s;text-align:center}
+.btn:hover{transform:translateY(-2px)}
+.btn.wa{background:#25d366;color:#06220f}
+.tick{overflow:hidden;white-space:nowrap;border-block:1px solid var(--line);padding:14px 0;background:var(--bg2)}
+.tick div{display:inline-block;animation:run 22s linear infinite;font-family:'Bricolage Grotesque';font-weight:800;font-size:1.4rem;text-transform:uppercase}
+.tick span{margin:0 22px}.tick span:nth-child(even){color:var(--red)}
+@keyframes run{to{transform:translateX(-50%)}}
+section{padding:11vh 18px;max-width:1100px;margin:auto}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-top:26px}
+.facts div{background:var(--bg2);padding:18px;border-radius:14px}.facts b{display:block;font-family:'Bricolage Grotesque';font-size:1.4rem}.facts small{color:var(--mut)}
+.rail{display:flex;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;margin:26px -18px 0;padding:0 18px 12px}
+.rail button{flex:0 0 min(78vw,340px);aspect-ratio:3/4;border:0;padding:0;border-radius:16px;overflow:hidden;scroll-snap-align:center;position:relative;background:var(--bg2)}
+.rail img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}.rail button:hover img{transform:scale(1.05)}
+.rail span{position:absolute;left:10px;bottom:10px;background:#14171ccc;color:#fff;padding:4px 12px;border-radius:99px;font-size:.85rem}
+.contact{text-align:center}
+.contact .num{font-family:'Bricolage Grotesque';font-weight:800;font-size:clamp(2.6rem,12vw,5.5rem);display:block;margin:16px 0;text-decoration:none}
+.contact .row{justify-content:center}
+.modal{position:fixed;inset:0;z-index:50;background:#06080aee;display:none;place-items:center;padding:16px}.modal.on{display:grid}
+.modal img{max-width:100%;max-height:82svh;border-radius:12px}
+.toast{position:fixed;left:50%;bottom:calc(86px + env(safe-area-inset-bottom,0px));transform:translate(-50%,300%);background:var(--ink);color:var(--bg);padding:12px 20px;border-radius:99px;z-index:60;transition:transform .3s}.toast.on{transform:translate(-50%,0)}
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:25;display:flex;gap:8px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:var(--bg);border-top:1px solid var(--line)}
+.bar .btn{flex:1;padding:13px 8px}
+footer{padding:20px 18px 110px;color:var(--mut);text-align:center;font-size:.9rem}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.hero img{transform:none}}
+</style></head><body>
+<header class="hero">
+<img alt="Silver Toyota Corolla Axio with black alloy wheels and red brake calipers" src="images/hero.jpg">
+<div class="hin">
+<h1>Toyota<br>Corolla <em>Axio</em></h1>
+<div class="price">KSh 890,000<small>Negotiable · Collo’s Yard</small></div>
+<div class="row"><a class="btn" href="tel:+254720347506">Call 0720 347506</a><a class="btn wa" data-wa="Hi Collo’s Yard, I’m interested in the Toyota Corolla Axio (KSh 890,000).">WhatsApp</a></div>
+</div></header>
+
+<div class="tick" aria-hidden="true"><div><span>Toyota Corolla Axio</span><span>KSh 890,000</span><span>Negotiable</span><span>Call or WhatsApp</span><span>Toyota Corolla Axio</span><span>KSh 890,000</span><span>Negotiable</span><span>Call or WhatsApp</span><span>Toyota Corolla Axio</span><span>KSh 890,000</span><span>Negotiable</span><span>Call or WhatsApp</span><span>Toyota Corolla Axio</span><span>KSh 890,000</span><span>Negotiable</span><span>Call or WhatsApp</span></div></div>
+
+<section>
+<h2>See it</h2>
+<div class="facts">
+<div><b>Silver</b><small>exterior</small></div>
+<div><b>Black alloys</b><small>with red calipers</small></div>
+<div><b>Light cloth</b><small>interior</small></div>
+<div><b>Right-hand drive</b><small>steering</small></div>
+</div>
+<div class="rail" id="rail"></div>
+</section>
+
+<section class="contact" id="contact">
+<h2>Talk to the seller</h2>
+<a class="num" href="tel:+254720347506">0720 347506</a>
+<p style="color:var(--mut)">Collo’s Yard. Calls and WhatsApp messages welcome.</p>
+<div class="row"><a class="btn" href="tel:+254720347506">Call now</a><a class="btn wa" data-wa="Hi Collo’s Yard, I’d like to view the Toyota Corolla Axio. When can I come?">Arrange a viewing</a></div>
+</section>
+
+<footer>Contact the seller directly to confirm all details of the vehicle.</footer>
+
+<div class="bar"><a class="btn" href="tel:+254720347506">Call</a><a class="btn wa" data-wa="Hi Collo’s Yard, I’m interested in the Toyota Corolla Axio (KSh 890,000).">WhatsApp</a></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Photo"><div id="mc"></div></div>
+
+<script>
+const $=s=>document.querySelector(s),NUM='254720347506';
+const pics=[['images/front.jpg','Front'],['images/wheels.jpg','Wheels and calipers'],['images/front-seats.jpg','Front seats'],['images/cabin.jpg','Cabin'],['images/rear-seats.jpg','Rear seats'],['images/engine-bay.jpg','Engine bay'],['images/rear.jpg','Rear']];
+$('#rail').innerHTML=pics.map((p,i)=>`<button data-i="${i}" aria-label="Open photo: ${p[1]}"><img src="${p[0]}" alt="${p[1]}"><span>${p[1]}</span></button>`).join('');
+$('#rail').onclick=e=>{const b=e.target.closest('button');if(!b)return;const p=pics[b.dataset.i];$('#mc').innerHTML=`<img src="${p[0]}" alt="${p[1]}">`;$('#modal').classList.add('on')};
+$('#modal').onclick=()=>$('#modal').classList.remove('on');addEventListener('keydown',e=>e.key==='Escape'&&$('#modal').classList.remove('on'));
+document.querySelectorAll('[data-wa]').forEach(a=>{a.href=`https://wa.me/${NUM}?text=${encodeURIComponent(a.dataset.wa)}`;a.target='_blank';a.rel='noopener'});
+</script></body></html>
